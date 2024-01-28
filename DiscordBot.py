@@ -158,7 +158,7 @@ async def leave(ctx):
 @bot.command()
 async def joke(ctx):
     jokeurl = "https://joke3.p.rapidapi.com/v1/joke"
-    headers = {'x-rapidapi-key': "38498ed9a8mshfd5bd320d9467b9p1cde4djsnfe4154fdb07f",'x-rapidapi-host': "joke3.p.rapidapi.com"}
+    headers = {'x-rapidapi-key': "rapi-api-key",'x-rapidapi-host': "joke3.p.rapidapi.com"}
     response = requests.request("GET", jokeurl, headers=headers)
     print(response.text)
 """
